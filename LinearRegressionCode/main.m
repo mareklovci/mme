@@ -39,16 +39,22 @@ barva = char(pocetSimulaci, 2);
 
 for i = 1:pocetSimulaci
 
-	epsilon = randn(n, 1) * sqrt(sigma2);		%Rezidua s normalnim rozdelenim N(0;2)
+    %Rezidua s normalnim rozdelenim N(0;2)
+	epsilon = randn(n, 1) * sqrt(sigma2);
 	y = Y + epsilon;
 
     % Perform linear regression
 	[btemp, bint] = regress(y, X);
     b(i,:) = btemp';
     
-	e = y - X * b(i,:)';							% vypocet rezidui
-	RSE = norm(e)^2;							% rezidualni soucet ctvercu pres euklidovskou normu 
-	s2(i) = RSE/(n-2);							% odhad rezidualniho rozptylu
+    % vypocet rezidui
+	e = y - X * b(i,:)';
+    
+    % rezidualni soucet ctvercu pres euklidovskou normu 
+	RSE = norm(e)^2;
+    
+    % odhad rezidualniho rozptylu
+	s2(i) = RSE/(n-2);
     
     Yhat = X*b(i,:)';
     resid2 = Y - Yhat;
@@ -91,7 +97,7 @@ title("\beta_0 confidence intervals")
 xlabel("Number of simulations"); ylabel("Intervals");
 
 subplot(2,2,2)
-bar([alpha * 100, pocetMimoBeta0 / pocetSimulaci * 100], 0.6);
+bar([alpha * 10, pocetMimoBeta0 / pocetSimulaci * 100], 0.6);
 
 set(gca, 'XTick', 1:2, 'XTickLabel', {'alfa', 'simulace'});
 title('% of items outside interval'); ylabel('%');
@@ -109,7 +115,7 @@ title("\beta_1 confidence intervals");
 xlabel("Number of simulations"); ylabel("Intervals");
 
 subplot(2,2,4)
-bar([alpha * 100, pocetMimoBeta1 / pocetSimulaci * 100], 0.6);
+bar([alpha * 10, pocetMimoBeta1 / pocetSimulaci * 100], 0.6);
 
 set(gca, 'XTick', 1:2, 'XTickLabel', {'alfa', 'simulace'});
 title('% of items outside interval'); ylabel('%');
