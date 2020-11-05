@@ -15,7 +15,7 @@ pocetSimulaci = 100;
 x = 1:100; n = length(x);
 
 % Choose real beta, sigma2 (rozptyl) & alpha
-beta = [1, 5]; sigma2 = 2; alpha = 0.5;
+beta = [1, 5]; sigma2 = 2; alpha = 0.05;
 
 % Regression Matrix X and Dependent variable Y (vysvetlovana promenna)
 X = [ones(n, 1), x']; Y = X * beta';
@@ -97,7 +97,7 @@ title("\beta_0 confidence intervals")
 xlabel("Number of simulations"); ylabel("Intervals");
 
 subplot(2,2,2)
-bar([alpha * 10, pocetMimoBeta0 / pocetSimulaci * 100], 0.6);
+bar([alpha * 100, pocetMimoBeta0 / pocetSimulaci * 100], 0.6);
 
 set(gca, 'XTick', 1:2, 'XTickLabel', {'alfa', 'simulace'});
 title('% of items outside interval'); ylabel('%');
@@ -115,7 +115,7 @@ title("\beta_1 confidence intervals");
 xlabel("Number of simulations"); ylabel("Intervals");
 
 subplot(2,2,4)
-bar([alpha * 10, pocetMimoBeta1 / pocetSimulaci * 100], 0.6);
+bar([alpha * 100, pocetMimoBeta1 / pocetSimulaci * 100], 0.6);
 
 set(gca, 'XTick', 1:2, 'XTickLabel', {'alfa', 'simulace'});
 title('% of items outside interval'); ylabel('%');
