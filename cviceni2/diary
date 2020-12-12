@@ -1,0 +1,16 @@
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importdata', 'C:\Program Files\MATLAB\R2017b\toolbox\matlab\iofun\importdata.p', 137)" style="font-weight:bold">importdata</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\matlab\iofun\importdata.p',137,0)">line 137</a>)
+Unable to open file.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\marek\gitrepos\mme\ondra\main.m', 15)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\marek\gitrepos\mme\ondra\main.m',15,0)">line 15</a>)
+data = importdata("TableF6-2.csv");
+
+main
+[Warning: P is less than the smallest tabulated value, returning 0.001.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lillietest', 'C:\Program Files\MATLAB\R2017b\toolbox\stats\stats\lillietest.m', 206)" style="font-weight:bold">lillietest</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\stats\stats\lillietest.m',206,0)">line 206</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\marek\gitrepos\mme\RegressionStatsCode\main.m', 59)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\marek\gitrepos\mme\RegressionStatsCode\main.m',59,0)">line 59</a>)] 
+[Warning: P is less than the smallest tabulated value, returning 0.001.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jbtest', 'C:\Program Files\MATLAB\R2017b\toolbox\stats\stats\jbtest.m', 136)" style="font-weight:bold">jbtest</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\stats\stats\jbtest.m',136,0)">line 136</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\marek\gitrepos\mme\RegressionStatsCode\main.m', 62)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\marek\gitrepos\mme\RegressionStatsCode\main.m',62,0)">line 62</a>)] 
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000

@@ -1,0 +1,39 @@
+[Warning: P is less than the smallest tabulated value, returning 0.001.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lillietest', 'C:\Program Files\MATLAB\R2017b\toolbox\stats\stats\lillietest.m', 206)" style="font-weight:bold">lillietest</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\stats\stats\lillietest.m',206,0)">line 206</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sem', 'C:\Users\marek\gitrepos\mme\sem.m', 61)" style="font-weight:bold">sem</a> (<a href="matlab: opentoline('C:\Users\marek\gitrepos\mme\sem.m',61,0)">line 61</a>)] 
+[Warning: P is less than the smallest tabulated value, returning 0.001.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jbtest', 'C:\Program Files\MATLAB\R2017b\toolbox\stats\stats\jbtest.m', 136)" style="font-weight:bold">jbtest</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017b\toolbox\stats\stats\jbtest.m',136,0)">line 136</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sem', 'C:\Users\marek\gitrepos\mme\sem.m', 64)" style="font-weight:bold">sem</a> (<a href="matlab: opentoline('C:\Users\marek\gitrepos\mme\sem.m',64,0)">line 64</a>)] 
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
+H1 = 1, P1 = 0.001
+H2 = 1, P2 = 0.001
+H3 = 1, P3 = 0.000
